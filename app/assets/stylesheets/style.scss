@@ -1,0 +1,119 @@
+
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.618;
+  font-family: 'Georgia';
+}
+
+.header {
+  text-align: center;
+  padding: 13px 0;
+  background: #afeeee;
+
+}
+
+.logo-wrapper{
+  font-size:40px;
+  color:orange;
+}
+
+.selection {
+  padding-top:110px;
+  height:550px;
+  line-height:35px;
+  display:flex;
+}
+
+.btn-radius {
+  padding: 0 20px;
+  height:300px;
+}
+
+.btn-radius:hover {
+  display: inline-block;
+  animation: hurueru .1s  infinite;
+}
+
+@keyframes hurueru {
+  0% {transform: translate(0px, 0px) rotateZ(0deg)}
+  25% {transform: translate(2px, 2px) rotateZ(1deg)}
+  50% {transform: translate(0px, 2px) rotateZ(0deg)}
+  75% {transform: translate(2px, 0px) rotateZ(-1deg)}
+  100% {transform: translate(0px, 0px) rotateZ(0deg)}
+}
+
+
+.footer{
+  text-align: center;
+  margin-top: 1em;
+  padding: 5px 0;
+  background: #afeeee;
+  font-size:20px;
+  color:white;
+}
+
+.select_person{
+  font-size:25px;
+}
+
+// ------------------------------------------------------
+
+.message {
+  text-align:center;
+  position: relative;
+  padding-top:20px;
+  padding-bottom:10px;
+}
+.message:before,.message:after{ 
+  content:'';
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  display: inline-block;
+}
+.message:before{
+  margin-top:20px;
+  margin-left:350px;
+  border-left: solid 3px #5767bf;
+  border-top: solid 3px #5767bf;
+  top:0;
+  left: 0;
+}
+.message:after{
+  margin-right:350px;
+  border-right: solid 3px #5767bf;
+  border-bottom: solid 3px #5767bf;
+  bottom:0;
+  right: 0;
+}
+.message p {
+  font-size:30px;
+}
+
+.profile {
+  font-size:20px;
+  margin-left:450px;
+}
+
+.youtube{
+  text-align:center;
+}
+
+.trouble{
+  height:800px;
+  line-height:40px;
+  text-align:center;
+}
+
+.down-pics{
+  padding: 2.5% 0;
+  display: flex;
+  // flex-direction: row;
+  // justify-content: space-evenly;
+}

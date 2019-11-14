@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: cheerup_production
-  username: cheerup
-  password: <%= ENV['CHEERUP_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5

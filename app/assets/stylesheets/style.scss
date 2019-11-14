@@ -1,5 +1,10 @@
 
 
+@font-face {
+  font-family: 'YOKOHAMA.otf';
+  src: font-url('/assets/YOKOHAMA.otf') 
+}
+
 a {
   text-decoration: none;
 }
@@ -15,7 +20,7 @@ body {
   text-align: center;
   padding: 13px 0;
   background: #afeeee;
-
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
 }
 
 .logo-wrapper{
@@ -48,7 +53,6 @@ body {
   100% {transform: translate(0px, 0px) rotateZ(0deg)}
 }
 
-
 .footer{
   text-align: center;
   margin-top: 1em;
@@ -59,7 +63,10 @@ body {
 }
 
 .select_person{
-  font-size:25px;
+  padding-top:55px;
+  padding-bottom:10px;
+  font-size:35px;
+  font-family: 'YOKOHAMA.otf';
 }
 
 // ------------------------------------------------------
@@ -106,7 +113,8 @@ body {
 }
 
 .trouble{
-  height:800px;
+  margin:0 auto;
+  width:1350px;
   line-height:40px;
   text-align:center;
 }
@@ -114,6 +122,15 @@ body {
 .down-pics{
   padding: 2.5% 0;
   display: flex;
-  // flex-direction: row;
-  // justify-content: space-evenly;
+  flex-wrap: wrap; 
+}
+
+.pic{
+  margin:15px;
+}
+
+.name{
+  font-size:25px;
+  margin-bottom:10px;
+  font-family: 'YOKOHAMA.otf';
 }

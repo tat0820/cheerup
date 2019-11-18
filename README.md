@@ -1,24 +1,10 @@
-# README
+## README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# CheerUp
+CheerUp is an app that you can be given an encouraging,thoughtful advice from legends like Napoleon,Einstein...etc.<br>
+<br>
+First,choose the type of advice you want,and choose the legendary person or character next.<br>
+Hope this app will help making your life better!
 
-Things you may want to cover:
+![cheerup](cheerup.gif)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

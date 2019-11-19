@@ -5,7 +5,7 @@
 <br>
 <br>
 <br>
-![cheerup](cheer.gif)
+![cheer](cheer.gif)
 
 
 ## 制作背景

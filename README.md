@@ -3,6 +3,7 @@
 # CheerUp
 登録されている過去～現代の有名人やキャラクターの名言を閲覧できる。
 <br>
+<br>
 ![cheerup](cheerup.gif)
 
 
